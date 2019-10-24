@@ -1,0 +1,16 @@
+public class Store {
+  // instance fields
+  String productType;  //instance variable
+  
+  // constructor method
+  public Store(String product) {  //adding a parameter to a consturctor
+    productType = product;
+  }
+  
+  // main method
+  public static void main(String[] args) {
+    Store lemonadeStand = new Store("lemonade");  //creating an instance of store and assigning it to the variable lemonadeStand and using "lemonade" as parameter
+    System.out.println(lemonadeStand.productType);
+    
+  }
+}
